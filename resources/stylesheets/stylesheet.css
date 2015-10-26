@@ -479,8 +479,8 @@ header h2 {
 
 .nav-links{
   position: relative;
-  width: 940px;
-  margin: 10px auto 10px;
+  width: 450px;
+  margin: 10px auto 10px auto;
 }
 
 a.nav-links.transparent-button{
