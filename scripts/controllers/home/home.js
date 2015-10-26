@@ -1,3 +1,6 @@
-/**
- * Created by manumac on 10/25/15.
- */
+'use strict';
+
+angular.module('app').controller('HomeCtrl', function () {
+
+   console.log("in home ctrl");
+});
