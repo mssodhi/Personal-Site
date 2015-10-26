@@ -13,7 +13,9 @@
 </head>
 <body ng-app="app">
 <div ng-include="'scripts/controllers/nav/nav.html'"></div>
-<main ng-view></main>
+<div ng-include="'scripts/controllers/nav/side.html'"></div>
+<main ng-view id="main-content"></main>
+
 </body>
 <script src="resources/js/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
