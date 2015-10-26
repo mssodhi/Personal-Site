@@ -553,18 +553,29 @@ aside a.button.red {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #fb6e52;
+  border-color: #fb6e52;
   border-radius: 5px;
 }
-aside a.button.download{
+aside a.button.yellow {
   display: block;
   width: 138px;
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  background-color: #ffce55;
+  border-color: #ffce55;
+  border-radius: 5px;
 }
+aside a.button{
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background-color: #2dc3e8;
+  border-color: #2dc3e8;
+  border-radius: 5px;}
 
 code, pre {
   margin-bottom: 30px;
@@ -767,8 +778,7 @@ footer {
   padding-bottom: 30px;
   margin-top: 40px;
   font-size: 13px;
-  color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  background: #272727;
 }
 
 footer a {
