@@ -567,46 +567,31 @@ header a.button {
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-aside a.button.green{
+aside a.button{
   display: block;
   width: 138px;
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background-color: #8bc34a;
-  border-color: #8bc34a;
-  border-radius: 5px;
-  /*background: transparent url(../images/download-button.png) 0 0 no-repeat;*/
-}
-aside a.button.red {
-  display: block;
-  width: 138px;
-  padding-left: 64px;
-  margin-bottom: 20px;
-  font-size: 21px;
-  background-color: #fb6e52;
-  border-color: #fb6e52;
   border-radius: 5px;
 }
-aside a.button.yellow {
-  display: block;
-  width: 138px;
-  padding-left: 64px;
-  margin-bottom: 20px;
-  font-size: 21px;
-  background-color: #ffce55;
-  border-color: #ffce55;
-  border-radius: 5px;
-}
-aside a.button.primary{
-  display: block;
-  width: 138px;
-  padding-left: 64px;
-  margin-bottom: 20px;
-  font-size: 21px;
+
+.primary{
   background-color: #2dc3e8;
   border-color: #2dc3e8;
-  border-radius: 5px;}
+}
+.yellow{
+  background-color: #ffce55;
+  border-color: #ffce55;
+}
+.red{
+  background-color: #fb6e52;
+  border-color: #fb6e52;
+}
+.green{
+  background-color: #8bc34a;
+  border-color: #8bc34a;
+}
 
 code, pre {
   margin-bottom: 30px;
