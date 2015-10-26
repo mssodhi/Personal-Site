@@ -477,15 +477,46 @@ header h2 {
   letter-spacing: 0;
 }
 
+.nav-links{
+  position: relative;
+  width: 940px;
+  margin: 10px auto 10px;
+}
+
+a.nav-links.transparent-button{
+  display: inline;
+  box-sizing: border-box;
+  margin: 10px 5px 10px 5px;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+
+a.nav-links.transparent-button:hover,
+a.nav-links.transparent-button:active {
+  background: rgb(255, 255, 255);
+  color: #000;
+  transition: all 0.5s ease-in;
+}
+
 .inner {
   position: relative;
   width: 940px;
-  margin: 0 auto;
+  margin: 65px auto 65px;
 }
 
 #content-wrapper {
+  width: 940px;
   padding-top: 30px;
-  border-top: solid 1px #fff;
+  margin: 0 auto 0;
 }
 
 #main-content {
