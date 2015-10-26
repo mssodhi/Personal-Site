@@ -1,8 +1,7 @@
 'use strict';
 
 angular.module('app', ['ngRoute', 'ngResource'])
-    .config(function ($routeProvider, $httpProvider) {
-        //$httpProvider.interceptors.push('AuthenticationInterceptor');
+    .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'scripts/controllers/home/home.html',
@@ -17,8 +16,7 @@ angular.module('app', ['ngRoute', 'ngResource'])
             })
             .otherwise({
                 redirectTo: '/deny'
-            })
-        ;
+            });
     });
 
 angular.module('app').run(function ($window, $location) {
