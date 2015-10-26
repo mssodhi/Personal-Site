@@ -8,10 +8,9 @@ angular.module('app', ['ngRoute', 'ngResource'])
                 controller: 'HomeCtrl',
                 controllerAs: 'ctrl'
             })
-            // Route for unauthorized access (When permission is not given to visit a page)
             .when('/deny',
             {
-                templateUrl: 'resources/scripts/controllers/deny/deny.html',
+                templateUrl: 'scripts/controllers/deny/deny.html',
                 caseInsensitiveMatch: true
             })
             .otherwise({
@@ -20,8 +19,5 @@ angular.module('app', ['ngRoute', 'ngResource'])
     });
 
 angular.module('app').run(function ($window, $location) {
-    //if($window.sessionStorage.getItem('originalUrl')) {
-    //    $location.url($window.sessionStorage.getItem('originalUrl'));
-    //    delete $window.sessionStorage.originalUrl;
-    //}
+
 });
