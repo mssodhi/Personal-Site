@@ -13,6 +13,9 @@ angular.module('app', ['ngRoute', 'ngResource'])
                 templateUrl: 'scripts/controllers/deny/deny.html',
                 caseInsensitiveMatch: true
             })
+            .when('/projects', {
+                templateUrl: 'scripts/controller/projects/projects.html'
+            })
             .otherwise({
                 redirectTo: '/deny'
             });

@@ -542,6 +542,27 @@ aside a.button {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  border-radius: 5px;
+  /*background: transparent url(../images/download-button.png) 0 0 no-repeat;*/
+}
+aside a.button.red {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background-color: #d9534f;
+  border-color: #d9534f;
+  border-radius: 5px;
+}
+aside a.button.download{
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
