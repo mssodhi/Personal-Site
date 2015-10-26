@@ -2,7 +2,7 @@
 
 angular.module('app', ['ngRoute', 'ngResource'])
     .config(function ($routeProvider, $httpProvider) {
-        $httpProvider.interceptors.push('AuthenticationInterceptor');
+        //$httpProvider.interceptors.push('AuthenticationInterceptor');
         $routeProvider
             .when('/', {
                 templateUrl: 'scripts/controllers/home/home.html',
