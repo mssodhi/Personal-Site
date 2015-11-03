@@ -7,6 +7,9 @@ angular.module('app').controller('HomeCtrl', function () {
         {text:"Standard Message", type: 'no message'},
         {text:"Success Message!", type:"success"},
         {text:"Alert Message!", type : "alert"},
-        {text:"secondary message...", type : "secondary"}
+        {text:"secondary message...", type : "secondary"},
+        {text: 'hellow World', type: 'hehaha'},
+        {text: 'hellow', type: 'yahhooo'},
+        {text: 'World', type: 'cnbc'}
     ]
 });
