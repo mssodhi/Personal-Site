@@ -1,13 +1,16 @@
-<div class="panel panel-default">
-    <div class="panel-body" style="background-color: transparent">
-        <section>
+<div class="col-sm-12">
+    <div class="panel panel-default">
+        <div class="panel-body">
             <h3>Manu Sodhi</h3>
-
             <p>My name is Manvinder Sodhi, and I am a fourth year student studying Computer Science at University of
                 California, Davis. I am currently working at Risk and Safety Services developing applications for use across multiple University
                 of California campuses.
             </p>
-
-        </section>
+        </div>
+    </div>
+    <div class="panel panel-default" ng-repeat="message in homeCtrl.messages">
+        <div class="panel-body">
+            {{message.text}}, {{message.type}}
+        </div>
     </div>
 </div>

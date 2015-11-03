@@ -6,7 +6,7 @@ angular.module('app', ['ngRoute', 'ngResource'])
             .when('/', {
                 templateUrl: 'scripts/controllers/home/home.html',
                 controller: 'HomeCtrl',
-                controllerAs: 'ctrl'
+                controllerAs: 'homeCtrl'
             })
             .when('/deny',
             {
