@@ -4251,6 +4251,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
+@media (max-width: 800px) {
+  #sidebar {
+    display:none !important;
+  }
+
+  .custom-header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+    border-bottom: solid 1px #275da1;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
