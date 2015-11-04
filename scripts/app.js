@@ -16,6 +16,12 @@ angular.module('app', ['ngRoute', 'ngResource'])
             .when('/projects', {
                 templateUrl: 'scripts/controllers/projects/projects.html'
             })
+            .when('/education', {
+                templateUrl: 'scripts/controllers/education/education.html'
+            })
+            .when('/about', {
+                templateUrl: 'scripts/controllers/about/about.html'
+            })
             .otherwise({
                 redirectTo: '/deny'
             });
