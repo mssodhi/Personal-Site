@@ -278,7 +278,7 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-div.content{
+.content{
   height: 1000px;
 }
 .glyphicon-asterisk:before {
@@ -1131,6 +1131,9 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+.about-image{
+  margin-top: 50px;
+}
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
@@ -1146,6 +1149,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+  width: 100%;
 }
 hr {
   margin-top: 20px;
@@ -1420,9 +1424,16 @@ a.bg-danger:focus {
   padding-top: 100px;
   padding-bottom: 300px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  /*background: #2e7bcf url(../images/Rockefeller.jpg) 0 0 repeat-x;*/
-  /*background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;*/
   border-bottom: transparent;
+}
+.about-info{
+  border-left: white dashed;
+  margin-top: 83px;
+  margin-bottom: 150px;
+  padding-left: 10px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  border-bottom: transparent;
+  color: white;
 }
 .custom-header > div > a >  h1 {
   margin-top: 0;

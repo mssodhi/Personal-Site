@@ -2,7 +2,7 @@
 
 angular.module('app').controller('HomeCtrl', function () {
     var ctrl = this;
-
+    ctrl.imgSource = '../../../resources/images/mainpic.jpeg';
     ctrl.messages = [
         {text:"Standard Message", type: 'no message'},
         {text:"Success Message!", type:"success"},
