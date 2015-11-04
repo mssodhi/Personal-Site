@@ -278,6 +278,9 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+div.content{
+  height: 1000px;
+}
 .glyphicon-asterisk:before {
   content: "\2a";
 }
@@ -1648,9 +1651,9 @@ pre code {
 }
 .container-fluid {
   margin: auto;
+  margin-bottom: 100px;
   width: 75%;
-  background-color: #ffffff;
-  opacity: 0.3;
+  background-color: rgba(255,255,255, .3);
 }
 .row {
   margin-left: 300px;
