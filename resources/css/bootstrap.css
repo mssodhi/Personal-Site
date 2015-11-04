@@ -1649,6 +1649,8 @@ pre code {
 .container-fluid {
   margin: auto;
   width: 75%;
+  background-color: #ffffff;
+  opacity: 0.3;
 }
 .row {
   margin-left: 300px;
