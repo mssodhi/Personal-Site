@@ -1435,6 +1435,19 @@ a.bg-danger:focus {
   border-bottom: transparent;
   color: white;
 }
+.education-card{
+  margin: 25px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  border-bottom: transparent;
+  color: white;
+}
+.education-card > h1{
+  font-size: -webkit-xxx-large;
+}
+.education-card > p,
+.education-card > small{
+  font-size: x-large;
+}
 .custom-header > div > a >  h1 {
   margin-top: 0;
   margin-bottom: 0;
