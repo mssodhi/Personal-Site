@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app', ['ngRoute', 'ngResource', 'ui.bootstrap'])
+angular.module('app', ['ngRoute', 'ngResource', 'ui.bootstrap','angulartics', 'angulartics.google.analytics'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
