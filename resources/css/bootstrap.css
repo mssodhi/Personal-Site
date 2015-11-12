@@ -1134,6 +1134,9 @@ img {
 .about-image{
   margin-top: 50px;
 }
+.custom-deny > h1{
+  font-family: monospace;
+}
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
