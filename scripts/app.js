@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app', ['ngRoute', 'ngResource'])
+angular.module('app', ['ngRoute', 'ngResource', 'ui.bootstrap'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
@@ -12,7 +12,9 @@ angular.module('app', ['ngRoute', 'ngResource'])
                 caseInsensitiveMatch: true
             })
             .when('/projects', {
-                templateUrl: 'scripts/controllers/projects/projects.html'
+                templateUrl: 'scripts/controllers/projects/projects.html',
+                controller: 'ProjectsCtrl',
+                controllerAs: 'ctrl'
             })
             .when('/education', {
                 templateUrl: 'scripts/controllers/education/education.html'

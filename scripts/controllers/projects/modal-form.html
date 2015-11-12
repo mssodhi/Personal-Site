@@ -1,0 +1,21 @@
+<div class="modal-header">
+    <h3><a ng-href="{{currentProject.html_url}}" target="_blank">{{currentProject.name}}</a></h3>
+</div>
+<div class="modal-body">
+    <!-- Description -->
+    <div class="form-group">
+        <label>Description</label>
+
+        <p>{{currentProject.description}}</p>
+    </div>
+
+    <div class="form-group">
+        <label>Language</label>
+
+        <p>{{currentProject.language}}</p>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button class="btn btn-warning" ng-click="cancel()">Close</button>
+</div>

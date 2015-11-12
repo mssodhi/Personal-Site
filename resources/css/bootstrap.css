@@ -1089,7 +1089,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #7B68EE;
+  background-color: #F08080;
 }
 input,
 button,
@@ -1444,7 +1444,6 @@ a.bg-danger:focus {
 
 }
 .education-card{
-  margin: 25px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   color: white;
 }
@@ -1685,7 +1684,6 @@ pre code {
   margin-bottom: 100px;
   width: 75%;
   background-color: rgba(255,255,255, .3);
-  padding-bottom: 50px;
   border-radius: 20px;
 }
 .row {
