@@ -4121,6 +4121,21 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 
 }
+
+.custom-projects > div > h2 > a{
+  font-size: 30px;
+  color: #f2f2f2;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+.custom-projects > div > h2 > a:hover{
+  color: gray;
+  text-decoration: none;
+}
+
 .nav > li > a:hover{
   color: gray;
   text-decoration: none;
