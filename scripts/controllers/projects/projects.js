@@ -12,8 +12,12 @@ angular.module('app').controller('ProjectsCtrl', ['$scope', '$modal', '$http', f
         });
     };
 
+
     ctrl.openModal = function (project) {
         $scope.currentProject = project;
+        var ne = Date.parse(project.updated_at);
+        var date = new Date(ne);
+        $scope.currentProject.date = date.toDateString();
         ctrl.showForm();
     };
 
