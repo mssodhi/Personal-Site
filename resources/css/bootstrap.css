@@ -1089,7 +1089,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #7B68EE;
 }
 input,
 button,
@@ -1686,6 +1686,7 @@ pre code {
   width: 75%;
   background-color: rgba(255,255,255, .3);
   padding-bottom: 50px;
+  border-radius: 20px;
 }
 .row {
   margin-left: 300px;

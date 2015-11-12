@@ -4,9 +4,7 @@ angular.module('app', ['ngRoute', 'ngResource'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
-                templateUrl: 'scripts/controllers/home/home.html',
-                controller: 'HomeCtrl',
-                controllerAs: 'homeCtrl'
+                templateUrl: 'scripts/controllers/about/about.html'
             })
             .when('/deny',
             {
@@ -18,9 +16,6 @@ angular.module('app', ['ngRoute', 'ngResource'])
             })
             .when('/education', {
                 templateUrl: 'scripts/controllers/education/education.html'
-            })
-            .when('/about', {
-                templateUrl: 'scripts/controllers/about/about.html'
             })
             .otherwise({
                 redirectTo: '/deny'
