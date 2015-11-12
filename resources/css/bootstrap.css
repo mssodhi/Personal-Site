@@ -1089,7 +1089,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #F08080;
+  /*background-color: #F08080;*/
+  background: url(../images/blue-gradiant.png);
 }
 input,
 button,
