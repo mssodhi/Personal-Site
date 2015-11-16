@@ -1,21 +1,30 @@
-<div class="navbar-fixed-top">
-    <div id="social-nav" class="btn-group pull-right" role="group">
-        <a href="https://www.linkedin.com/in/sodhim" class="btn btn-linkedin">LinkedIn</a>
-        <a href="https://github.com/mssodhi/" class="btn btn-github">GitHub</a>
-        <a href="https://twitter.com/manu_sooodhi" class="btn btn-twitter">Twitter</a>
-        <a href="https://instagram.com/manu_sooodhi" class="btn btn-instagram">Instagram</a>
+<div ng-controller='NavCtrl as ctrl'>
+    <div class="navbar-fixed-top" ng-init="ctrl.init()">
+        <div id="social-nav" class="btn-group pull-right" role="group">
+            <a href="https://www.linkedin.com/in/sodhim" class="btn btn-linkedin">LinkedIn</a>
+            <a href="https://github.com/mssodhi/" class="btn btn-github">GitHub</a>
+            <a href="https://twitter.com/manu_sooodhi" class="btn btn-twitter">Twitter</a>
+            <a href="https://instagram.com/manu_sooodhi" class="btn btn-instagram">Instagram</a>
+        </div>
     </div>
-</div>
-<div class="custom-header">
-    <div class="col-sm-12">
-        <a ng-href="#/" class="text-center"><h1>Sodhi</h1></a>
+    <div class="custom-header">
+        <div class="col-sm-12">
+            <a ng-href="#/" class="text-center"><h1>Sodhi</h1></a>
 
-        <h2 class="text-center">Student // Developer</h2>
+            <h2 class="text-center">Student // Developer</h2>
+        </div>
     </div>
-</div>
-<div>
-    <ul class="nav nav-pills nav-justified">
-        <li><a ng-href="#/education">Education and Skills</a></li>
-        <li><a ng-href="#/projects">Projects</a></li>
-    </ul>
+    <!--<div class="panel panel-body text-center custom-font" style="font-size: 75px; background-color: transparent">-->
+        <!--<label class="custom-white">{{ctrl.currentTime.hours}}</label>-->
+        <!--<label class="custom-blue"> : </label>-->
+        <!--<label class="custom-orange">{{ctrl.currentTime.mins}}</label>-->
+        <!--<label class="custom-yellow"> : </label>-->
+        <!--<label class="custom-green">{{ctrl.currentTime.sec}}</label>-->
+    <!--</div>-->
+    <div>
+        <ul class="nav nav-pills nav-justified">
+            <li><a ng-href="#/education">Education and Skills</a></li>
+            <li><a ng-href="#/projects">Projects</a></li>
+        </ul>
+    </div>
 </div>
