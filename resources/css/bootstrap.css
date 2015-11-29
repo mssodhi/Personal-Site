@@ -1901,6 +1901,10 @@ a.bg-danger:focus {
 .custom-purple {
     color: #90F;
 }
+.custom-royalBlue{
+    background-color: royalblue;
+    color: #ffffff;
+}
 
 #social-nav {
     z-index: 1;
